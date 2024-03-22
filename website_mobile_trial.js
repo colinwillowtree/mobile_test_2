@@ -115,9 +115,9 @@ function draw() {
   text("window height" + windowHeight, width/2, height*0.86+30+30+30);
 }
 
-function windowResized() {
-  resizeCanvas(windowWidth, windowHeight);
-}
+// function windowResized() {
+//   resizeCanvas(windowWidth, windowHeight);
+// }
 
 function mouseDragged() {
   var v = new Vehicle(mouseX, mouseY, 7);
