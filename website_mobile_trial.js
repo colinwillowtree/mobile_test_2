@@ -29,7 +29,7 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth, 400);
   document.body.style.overflow = "hidden";
   loadVehicles();
   loadStructureData();
